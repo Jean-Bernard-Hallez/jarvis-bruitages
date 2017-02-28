@@ -18,12 +18,12 @@ Voici comment le configurer avec ses propres bruitages:
 La commande doit être "Fais" + "quelque chose", et le format des fichiers doivent obligatoirement:
 
 - être au format " . wav "
-- ils doivent être placés dans le répertoire:         ~/jarvis/plugins/jarvis-bruitage/             et là 2 cas de figures:
+- ils doivent être placés dans le répertoire:         ~/jarvis/plugins/jarvis-bruitages/             et là 2 cas de figures:
 
-	* Vous n'avez qu'un son, on dit "Fais le bruit d'un claxon", le son est placé dans:              ~/jarvis/plugins/jarvis-bruitage/claxon.wav
+	* Vous n'avez qu'un son, on dit "Fais le bruit d'un claxon", le son est placé dans:              ~/jarvis/plugins/jarvis-bruitages/claxon.wav
 
 	* Il y a plusieurs fichier wav, les sons du répertoire seront tirés au sort ! 
-	peut-importe les noms mais ils doivent être dans le répertoire:                                ~/jarvis/plugins/jarvis-bruitage/bruitages/NOM DU BRUITAGE/FICHIERS X.WAV
+	peut-importe les noms mais ils doivent être dans le répertoire:                                ~/jarvis/plugins/jarvis-bruitages/bruitages/NOM DU BRUITAGE/FICHIERS X.WAV
 								"NOM DU BRUITAGE"= dernier mot prononcé pour l'obtenir c'est le nom du répertoire ou sont stockées les sons .wav
 	exemple pour différent claxon, si on dit "Fais le bruit d'un claxon", ca  doit être dans       ~/jarvis/plugins/jarvis-bruitage/claxon/son1.wav
                															      /peutimporte.wav
