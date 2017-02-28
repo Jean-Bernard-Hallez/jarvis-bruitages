@@ -36,7 +36,7 @@ exemple pour différent claxon, si on dit "Fais le bruit d'un claxon", ca  doit 
 
 son1.wav
 peutimporte.wav
-bruit2.wav  
+bruit2.wav
 etc...
 
 Voilà amusez-vous bien !
