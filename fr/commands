@@ -1,0 +1,3 @@
+*FAIS (*)==memoirefait=(1); say "$(jv_pg_ct_faitceci)"
+QUE*BRUITAGE*==say "Je sais faire $(jv_pg_ct_quefaitceci)"
+
