@@ -1,10 +1,10 @@
 # /bin/bash
 
 jv_pg_ct_faitceci() {
-vercheminetmax
-if [[ "$memoirefait" = "R2" ]]; then
-memoirefait="R2D2"
+if [[ "$memoirefait" = "r2" ]]; then
+memoirefait="r2d2"
 fi
+vercheminetmax
 
 if [[ "$max" == "0" ]]; then 
 echo "Aïe, je ne trouve pas le bruitage que tu me demandes, désolé"

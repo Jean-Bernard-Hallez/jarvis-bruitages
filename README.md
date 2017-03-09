@@ -11,6 +11,7 @@ For multi-language plugin:
 -->
 
 ## Description
+09/03/17 correction de bug
 Fait des bruitages avec des sonorisations différentes pour la même demande prononcé.
 Dans cette installation il y a déja:  la vache, tarzan, siffle, R2D2, chien, chèvre... et à vous de l'enrichir
 
@@ -18,6 +19,7 @@ Voici comment le configurer avec ses propres bruitages:
 La commande doit être "Fais" + "quelque chose", et le format des fichiers doivent obligatoirement:
 
 - être au format " . wav "
+- sans accent !!!
 - ils doivent être placés dans le répertoire:         
 ~/jarvis/plugins/jarvis-bruitages/
 
@@ -53,6 +55,10 @@ Jarvis (le bruit de la chèvre) (ici, il y a 11 sons différents à chaque fois 
 
 You: fait le son de la guèpe
 Jarvis: Aïe, je ne trouve pas le bruitage que tu me demandes, désolé.
+
+You: quel bruitage tu sais faire ?
+Jarvis: Je sais faire vache, tarzan, siffle, r2d2, poule, coq, chien, chevre,
+
 ```
 
 ## Author
