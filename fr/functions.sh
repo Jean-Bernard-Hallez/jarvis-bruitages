@@ -7,7 +7,7 @@ fi
 vercheminetmax
 
 if [[ "$max" == "0" ]]; then 
-echo "Aïe, je ne trouve pas le bruitage que tu me demandes, désolé"
+say "Aïe, je ne trouve pas le bruitage $memoirefait que tu me demandes, désolé"
 return
 fi
 
@@ -31,7 +31,7 @@ done
 jv_pg_ct_quefaitceci() {
 vercheminetmax
 titrejesais=`ls -r $chemin/ | sed -e "s/.wav//g"  | tr '\n' ',' | sed  's/,/, /g'` 
-echo $titrejesais
+say  $titrejesais
 }
 
 
@@ -52,4 +52,6 @@ fi
 
 }
 
-
+forcingbruitage() {
+aplay -q /home/pi/jarvis/plugins_installed/jarvis-bruitages/bruitages/chien/chien-0.wav
+}
