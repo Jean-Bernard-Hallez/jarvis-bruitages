@@ -11,6 +11,7 @@ For multi-language plugin:
 -->
 
 ## Description
+02/05/17 Correction suite modif du "plugins_installed"
 09/03/17 correction de bug
 Fait des bruitages avec des sonorisations différentes pour la même demande prononcé.
 Dans cette installation il y a déja:  la vache, tarzan, siffle, R2D2, chien, chèvre... et à vous de l'enrichir

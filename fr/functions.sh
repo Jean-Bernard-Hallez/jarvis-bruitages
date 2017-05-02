@@ -36,9 +36,10 @@ echo $titrejesais
 
 
 vercheminetmax() {
-chemin="/home/pi/jarvis/plugins/jarvis-bruitages/bruitages"
+chemin="/home/pi/jarvis/plugins_installed/jarvis-bruitages/bruitages"
 memoirefait=`echo $memoirefait | sed 's/.* //'`
 max=`ls $chemin/$memoirefait 2>/dev/null  | wc -l`
+# echo "$chemin/$memoirefait $max"
 if [[ "$max" == "0" ]]; then
 max=`ls $chemin/$memoirefait.wav 2>/dev/null | wc -l`
 	if [[ "$max" == "1" ]]; then 
